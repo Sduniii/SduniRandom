@@ -44,6 +44,19 @@ public class SduniRandom extends Random {
 		int64();
 		l.unlock();
 	}
+	
+	public SduniRandom(long seed) {
+		l.lock();
+		this.w = 1;
+		this.algo = Algorithm.DEFAULT;
+		this.u = 4101842887655102017L ^ seed;
+		int64();
+		this.v = this.u;
+		int64();
+		this.w = v;
+		int64();
+		l.unlock();
+	}
 
 	public SduniRandom() {
 		l.lock();
