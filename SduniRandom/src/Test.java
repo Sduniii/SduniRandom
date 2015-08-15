@@ -14,7 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import core.SduniRandom;
+import tsdun.sdunzehmke.de.SduniRandom;
 
 public class Test {
 

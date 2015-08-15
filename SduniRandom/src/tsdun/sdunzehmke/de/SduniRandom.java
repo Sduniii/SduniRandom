@@ -1,4 +1,4 @@
-package core;
+package tsdun.sdunzehmke.de;
 
 import java.util.Random;
 import java.util.concurrent.locks.Lock;
